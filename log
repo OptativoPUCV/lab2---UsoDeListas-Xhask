@@ -1,0 +1,9 @@
+Thu 09 May 2024 11:16:08 PM UTC: 
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:126:32: error: suggest parentheses around ‘&&’ within ‘||’ [-Werror=parentheses]
+  126 |          if (top(pila) == NULL && (cadena[i] == ')' && *((char *)top(pila)) == '(') || (cadena[i] == ']' && *((char *)top(pila)) == '[') ||(cadena[i] == '}' && *((char *)top(pila)) == '{')){
+      |              ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+b8f3a76
